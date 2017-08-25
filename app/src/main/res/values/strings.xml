@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">MyCollegeGuide</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign up</string>
+    <string name="forgot_password">Forgot Password</string>
+
+
+    <string-array name="array">
+        <item>Hello</item>
+    </string-array>
+
+
+    <!-- education category -->
+    <string name="vocation_education">vocational and teacher education<br/> education</string>
+    <string name="culture_education">inter-culture and and education</string>
+    <string name="teacher_education">teacher education</string>
+    <string name="education_science">education science</string>
+    <string name="early_childhood">early childhood</string>
+    <string name="physical_education">physical education</string>
+
+
+
+    <!-- science category -->
+    <string name="politic_science">law and political science</string>
+    <string name="chemistry_life_science">chemistry and life science</string>
+    <string name="mpi">mathematics and information</string>
+    <string name="geography_environment">geography and environment</string>
+
+
+
+
+    <!-- economy_humanities -->
+    <string name="economy_management">economy and management</string>
+    <string name="humanities">Humanities</string>
+
+
+
+    <!-- Culture language and art -->
+    <string name="CFL">Foreign language</string>
+    <string name="communication_art">communication and creative culture</string>
+    <string name="music">music</string>
+    <string name="african_studies">african studies</string>
+    <string name="fine_art">fine art</string>
+
+
+
+
+    <!-- inside each college -->
+
+    <string name="about">about</string>
+    <string name="major">major</string>
+    <string name="competitions">competitions</string>
+    <string name="teacher">teacher</string>
+    <string name="offices">offices</string>
+    <string name="activities">activities</string>
+
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="about_detail">About</string>
+    <string name="major_detail">Major</string>
+    <string name="competitition_detail">Competitition</string>
+    <string name="teacher_detail">Teacher</string>
+    <string name="offices_detail">Offices</string>
+    <string name="activities_detail">Activities</string>
+    <string name="name">Name</string>
+
+
+
+</resources>

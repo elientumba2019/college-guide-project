@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/inside_college_cat_back"
+    >
+
+    <Button
+        android:id="@+id/foreign_language"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="195dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/communication"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:layout_below="@+id/foreign_language"
+        android:layout_alignStart="@+id/foreign_language" />
+
+    <Button
+        android:id="@+id/african_studies"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/communication"
+        android:layout_alignStart="@+id/communication" />
+
+    <Button
+        android:id="@+id/music"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:layout_below="@+id/african_studies"
+        android:layout_alignStart="@+id/african_studies" />
+
+    <Button
+        android:id="@+id/fine_art"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/music"
+        android:layout_alignStart="@+id/music"
+        android:layout_marginTop="16dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="27dp"
+        app:srcCompat="@drawable/testforeignlanguagecollege"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/communication"
+        android:layout_alignTop="@+id/foreign_language" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/african_studies"
+        android:layout_alignStart="@+id/imageView2"
+        app:srcCompat="@drawable/testcommunicationcreatieculture"
+        android:layout_alignTop="@+id/communication" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/music"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="14dp"
+        app:srcCompat="@drawable/testafricanstudies"
+        android:layout_alignTop="@+id/african_studies" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/fine_art"
+        android:layout_alignStart="@+id/imageView4"
+        app:srcCompat="@drawable/testmusic"
+        android:layout_alignTop="@+id/music" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/fine_art"
+        android:layout_alignStart="@+id/imageView5"
+        app:srcCompat="@drawable/teatfineart"
+        android:layout_alignEnd="@+id/imageView5" />
+</RelativeLayout>

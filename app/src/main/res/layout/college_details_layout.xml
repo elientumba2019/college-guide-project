@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/about_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="240dp"
+        android:text="@string/about"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/major_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/about_detail"
+        android:layout_marginEnd="48dp"
+        android:text="@string/major" />
+
+    <Button
+        android:id="@+id/competitiion_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="41dp"
+        android:text="@string/competitions"
+        android:layout_below="@+id/about_detail"
+        android:layout_alignStart="@+id/about_detail" />
+
+    <Button
+        android:id="@+id/teacher_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/competitiion_detail"
+        android:layout_alignStart="@+id/major_detail"
+        android:text="@string/teacher" />
+
+    <Button
+        android:id="@+id/offices_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/competitiion_detail"
+        android:layout_below="@+id/competitiion_detail"
+        android:layout_marginTop="49dp"
+        android:text="@string/offices" />
+
+    <Button
+        android:id="@+id/activities_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/offices_detail"
+        android:layout_alignEnd="@+id/teacher_detail"
+        android:text="@string/activities" />
+</RelativeLayout>

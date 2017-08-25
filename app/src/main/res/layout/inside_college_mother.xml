@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/inside_college_cat_back">
+
+    <Button
+        android:id="@+id/about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="227dp"
+        android:layout_marginStart="60dp"
+        android:text="@string/about"
+         />
+
+    <Button
+        android:id="@+id/major"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/about"
+        android:layout_marginStart="58dp"
+        android:layout_toEndOf="@+id/about"
+        android:text="@string/major"
+         />
+
+    <Button
+        android:id="@+id/Competition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="31dp"
+        android:text="@string/competitions"
+        android:layout_below="@+id/major"
+        android:layout_toStartOf="@+id/activities"
+        android:layout_marginEnd="30dp" />
+
+    <Button
+        android:id="@+id/teacher_college"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/Competition"
+        android:layout_alignEnd="@+id/major"
+        android:text="@string/teacher"
+         />
+
+    <Button
+        android:id="@+id/offices"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="31dp"
+        android:text="@string/offices"
+        android:layout_below="@+id/Competition"
+        android:layout_alignStart="@+id/about" />
+
+    <Button
+        android:id="@+id/activities"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/offices"
+        android:layout_alignEnd="@+id/teacher_college"
+        android:text="@string/activities"
+         />
+</RelativeLayout>

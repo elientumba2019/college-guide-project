@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/sign_up_1_back"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/student_id"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="144dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Input your student ID" />
+
+    <EditText
+        android:id="@+id/id"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/student_id"
+        android:layout_below="@+id/student_id"
+        android:layout_marginTop="11dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Input your ID : eg passport" />
+
+    <Spinner
+        android:id="@+id/college_spinner"
+        android:layout_width="250dp"
+
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/id" />
+
+    <Spinner
+        android:id="@+id/major_spinner"
+
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:layout_below="@+id/college_spinner"
+        android:layout_alignStart="@+id/college_spinner" />
+
+    <Spinner
+        android:id="@+id/degree_spinner"
+
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:layout_below="@+id/major_spinner"
+        android:layout_alignStart="@+id/major_spinner" />
+
+    <Spinner
+        android:id="@+id/grade_spinner"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:layout_below="@+id/degree_spinner"
+        android:layout_alignStart="@+id/degree_spinner" />
+
+    <Button
+        android:id="@+id/next_button2"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:background="@drawable/next_button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/grade_spinner"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="49dp" />
+
+    <Button
+        android:id="@+id/back_button2"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/next_button2"
+        android:layout_alignStart="@+id/grade_spinner"
+        android:background="@drawable/back" />
+
+
+</RelativeLayout>

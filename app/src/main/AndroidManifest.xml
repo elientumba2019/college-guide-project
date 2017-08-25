@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.administrator.mycollegeguide">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activities.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+
+        <!-- activities college category -->
+        <activity android:name=".activities.CollegeActivity"/>
+
+        <activity android:name=".activities.ListEducationCollegeActivity">
+        </activity>
+
+        <activity android:name=".activities.ListScienceCollegeActivity">
+        </activity>
+
+
+        <activity android:name=".activities.ListEconomyHumanitiesCollegeActivity">
+        </activity>
+
+        <activity android:name=".activities.ListCultureLanguageArtCollegeActivity">
+        </activity>
+
+
+
+        <!-- college detail Actiity -->
+        <activity android:name=".activities.CollegeDetailActivity"/>
+        
+        
+        <!-- about activity -->
+        <activity android:name=".activities.AboutCollegeActivity"/>
+
+        <!-- sign up activity 1 -->
+        <activity android:name=".activities.SignUpActivity1" />
+
+        <!-- sign up activity 2 -->
+        <activity android:name=".activities.SignUpActivity2"/>
+
+        <!-- sign up activity 3 -->
+        <activity android:name=".activities.SignUpActivity3"/>
+
+        <!-- forgot password activity 1 -->
+        <activity android:name=".activities.ForgotPAssword1"/>
+
+        <!-- user profile activity -->
+        <activity android:name=".activities.ProfileActivity"/>
+
+        <!-- competition activity -->
+        <activity android:name=".activities.CompetitionCollegeActivity"></activity>
+
+        <!-- activities activity -->
+        <activity android:name=".activities.ActivitiesCollegeActivity"></activity>
+
+        <!-- major activity -->
+        <activity android:name=".activities.MajorCollegeActivity"></activity>
+
+        <!-- teacher activity -->
+        <activity android:name=".activities.TeacherCollegeActivity"></activity>
+
+        <!-- office activity -->
+        <activity android:name=".activities.OfficeCollegeActivity"></activity>
+
+    </application>
+    
+
+    <!-- user persiosion to user internet -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+</manifest>

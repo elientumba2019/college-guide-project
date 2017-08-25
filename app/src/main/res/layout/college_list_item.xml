@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_marginBottom="5dp"
+    android:background="@color/back_list"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:text="Hello"
+        android:textSize="25sp"
+        android:layout_width="match_parent"
+        android:id="@+id/college_name"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:layout_height="wrap_content" />
+
+    
+</LinearLayout>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/inside_college_cat_back"
+    >
+
+
+    <Button
+        android:id="@+id/vocational_education"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="123dp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/imageView9" />
+
+    <Button
+        android:id="@+id/culture_education"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:layout_below="@+id/vocational_education"
+        android:layout_alignStart="@+id/vocational_education" />
+
+    <Button
+        android:id="@+id/teacher_education"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/culture_education"
+        android:layout_alignStart="@+id/culture_education" />
+
+    <Button
+        android:id="@+id/early_chilhood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/teacher_education"
+        android:layout_alignStart="@+id/teacher_education" />
+
+    <Button
+        android:id="@+id/education_science"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/early_chilhood"
+        android:layout_alignStart="@+id/early_chilhood"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/physical_education"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/education_science"
+        android:layout_alignStart="@+id/education_science"
+        android:layout_marginTop="18dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/culture_education"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="14dp"
+        app:srcCompat="@drawable/testvocationaleducation"
+        android:layout_alignTop="@+id/vocational_education" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/teacher_education"
+        android:layout_alignStart="@+id/imageView"
+        app:srcCompat="@drawable/testinternationaleducation"
+        android:layout_alignTop="@+id/culture_education" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/early_chilhood"
+        android:layout_alignStart="@+id/imageView7"
+        app:srcCompat="@drawable/testteachereducation"
+        android:layout_alignTop="@+id/teacher_education" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/education_science"
+        android:layout_alignStart="@+id/imageView8"
+        android:layout_marginStart="11dp"
+        app:srcCompat="@drawable/testphycaleducation"
+        android:layout_alignTop="@+id/early_chilhood" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/education_science"
+        android:layout_alignStart="@+id/imageView8"
+        app:srcCompat="@drawable/testearlychildhood"
+        android:layout_alignTop="@+id/education_science" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/testearlychildhood"
+        android:layout_alignTop="@+id/physical_education"
+        android:layout_alignStart="@+id/imageView10" />
+
+
+</RelativeLayout>

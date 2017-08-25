@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/inside_college_cat_back">
+
+
+    <Button
+        android:id="@+id/law"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="218dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/law_logo" />
+
+    <Button
+        android:id="@+id/chemistry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+
+        android:layout_below="@+id/law"
+        android:layout_alignStart="@+id/law" />
+
+    <Button
+        android:id="@+id/mpi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="31dp"
+        android:layout_below="@+id/chemistry"
+        android:layout_alignStart="@+id/chemistry" />
+
+    <Button
+        android:id="@+id/geography_environment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:layout_below="@+id/mpi"
+        android:layout_alignStart="@+id/mpi" />
+
+    <ImageView
+        android:id="@+id/law_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/law"
+        android:layout_marginStart="13dp"
+        android:background="@drawable/test2law"
+        android:layout_above="@+id/chemistry" />
+
+
+    <ImageView
+        android:id="@+id/chemistry_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/test3chemestry"
+        android:layout_alignTop="@+id/chemistry"
+        android:layout_alignStart="@+id/law_logo"
+        android:layout_above="@+id/mpi"
+        android:layout_toStartOf="@+id/chemistry"
+        android:layout_alignEnd="@+id/law_logo" />
+
+    <ImageView
+        android:id="@+id/mpi_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/test1mpi"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/chemistry_logo"
+        android:layout_alignEnd="@+id/chemistry_logo"
+        android:layout_above="@+id/geography_environment" />
+
+    <ImageView
+        android:id="@+id/geography_environment_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/test4geography"
+        android:layout_below="@+id/mpi_logo"
+        android:layout_alignEnd="@+id/mpi_logo"
+        android:layout_marginTop="23dp"
+        android:layout_alignBottom="@+id/geography_environment" />
+
+
+
+
+</RelativeLayout>
