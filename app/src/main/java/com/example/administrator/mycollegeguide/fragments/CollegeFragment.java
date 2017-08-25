@@ -19,6 +19,11 @@ import com.example.administrator.mycollegeguide.R;
  * Created by Administrator on 2017/8/2 0002.
  */
 
+
+/**
+ * new comment to test git
+ */
+
 /**
  * CollegeFragment is responsible for inflating the view that belongs to the
  * CollegeActivity as well as implementing all functionalities
